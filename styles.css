@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    background: linear-gradient(180deg, rgba(227, 255, 248, 1) 30%, rgba(227, 255, 248, 0.38) 100%);
 }
 .page{
     width: 1000px;
