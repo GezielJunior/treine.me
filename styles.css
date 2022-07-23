@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+.page{
+    width: 1000px;
+    height: 625px;
+    margin: 0 auto 0px;
+    padding: 65px;
+}
+#logo{
+    width: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 58px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 48px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+ul li a{
+    font-size: 20px;
+    opacity: 0.5;
+    font-weight: 700;
+}
+a{
+    color: #1F1534;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #1F1534;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #69B99D;
+   padding: 5px 20px;
+   border-radius: 0px 7px 7px 7px;
+   color: white;
+   opacity: 1;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Mulish', sans-serif;
+    font-size: 60px;
+    line-height: 56px;
+    color:#1F1534;
+}
+span{
+    color: #89C5CC;
+}
+p strong{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700px;
+    color: #7D7987;
+
+}
+section p{
+    font-size: 18px;
+    color: #7D7987;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 40px 0px;
+}
+button{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #69B99D;
+    border-radius: 4px;
+    width: 179px;
+    height: 56px;
+    color: #F9F9F9;
+    font-size: 15px;
+    border: 0px;
+    gap: 10px;
+}
+button:hover{
+    background: #52a789; 
+    width: 183px;
+    height: 59px;
+    cursor: pointer;
+}
+hr{
+    color: #69B99D;
+    width: 700px;
+    border: 2px solid #69B99D;
+    opacity: 0.3;
+    margin-top: 100px;
+}
+footer{
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+footer a{
+    font-weight: bold;
+    background-color: #69B99D;
+    padding: 3px 8px;
+    border-radius: 0px 4px 4px 4px;
+    color: white;
+    margin-left: 3px;
+}
+footer a:hover{
+    padding: 3px 9px;
+    cursor: pointer;
+    background-color: #52a789;
+}
+#balls{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+}
